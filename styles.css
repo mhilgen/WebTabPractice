@@ -1,3 +1,8 @@
+* {
+    margin: 0;
+    padding: 0;
+    /* background-color: black; */
+  }
 [data-tab-content]{
     display: none;
 
@@ -24,6 +29,7 @@ body{
 .tab{
     cursor: pointer;
     padding: 10px;
+    font-size: 48px;
 }
 .tab.active{
     background-color: #CCC;
@@ -34,7 +40,9 @@ body{
 
 }
 .tab-content{
-    margin-left: 20px;
+    
     margin: center;
-    margin-right: 20px;
+    text-align: center;
+    font-size: 16px;
+    margin-top: 8vh;
 }
