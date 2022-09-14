@@ -1,7 +1,7 @@
 * {
     margin: 0;
     padding: 0;
-    /* background-color: black; */
+    background-color: #2E333A;
   }
 [data-tab-content]{
     display: none;
@@ -19,30 +19,32 @@ body{
 
 .tabs{
     display: flex;
+    margin-top: 5vh;
     justify-content: space-around;
     list-style-type: none;
-    margin: 0;
-    padding: 0;
-    border-bottom: 1px solid black;
+    margin: 2;
+    padding: 5;
+    border: 2px solid white;
+    color: white;
+    font: 32px Helvetica, sans-serif;
 
 }
 .tab{
     cursor: pointer;
     padding: 10px;
-    font-size: 48px;
+
 }
 .tab.active{
-    background-color: #CCC;
+    background-color: #ff315a;
 }
 
 .tab:hover{
-    background-color: #AAA;
-
+    background-color: grey;
 }
 .tab-content{
-    
+    color: white;
     margin: center;
     text-align: center;
-    font-size: 16px;
+    font: 16px Helvetica, sans-serif;
     margin-top: 8vh;
 }
